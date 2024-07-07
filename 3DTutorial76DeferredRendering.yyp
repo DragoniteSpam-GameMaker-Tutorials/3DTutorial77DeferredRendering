@@ -40,6 +40,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Objects","path":"scripts/Objects/Objects.yy",},},
     {"id":{"name":"surface_validate","path":"scripts/surface_validate/surface_validate.yy",},},
+    {"id":{"name":"shd_deferred_gbuff","path":"shaders/shd_deferred_gbuff/shd_deferred_gbuff.yy",},},
     {"id":{"name":"shd_forward","path":"shaders/shd_forward/shd_forward.yy",},},
     {"id":{"name":"duck_back","path":"sprites/duck_back/duck_back.yy",},},
     {"id":{"name":"duck_front","path":"sprites/duck_front/duck_front.yy",},},

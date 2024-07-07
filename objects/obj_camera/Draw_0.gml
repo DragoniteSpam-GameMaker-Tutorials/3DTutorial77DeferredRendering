@@ -1,3 +1,7 @@
+surface_set_target(self.gbuff_diffuse);
+surface_set_target_ext(1, self.gbuff_normal);
+shader_set(shd_deferred_gbuff);
+
 draw_clear(c_black);
 
 var cam = camera_get_active();
@@ -91,4 +95,5 @@ gpu_set_cullmode(cull_noculling);
 gpu_set_zwriteenable(false);
 gpu_set_ztestenable(false);
 shader_reset();
+surface_reset_target();
 matrix_set(matrix_world, matrix_build_identity());
