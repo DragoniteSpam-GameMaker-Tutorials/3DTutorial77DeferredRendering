@@ -17,9 +17,10 @@ camera_apply(cam);
 gpu_set_cullmode(cull_counterclockwise);
 gpu_set_zwriteenable(true);
 gpu_set_ztestenable(true);
+
+/*
 shader_set(shd_forward);
 
-//*
 shader_set_uniform_f(shader_get_uniform(shd_forward, "u_LightAmbient"), 0.1, 0.1, 0.1);
 
 var ir3 = 1 / sqrt(3);
@@ -49,7 +50,7 @@ var point_light_colors = [
 
 shader_set_uniform_f_array(shader_get_uniform(shd_forward, "u_PointLights"), point_lights);
 shader_set_uniform_f_array(shader_get_uniform(shd_forward, "u_PointLightColors"), point_light_colors);
-//*/
+*/
 vertex_submit(self.vb_floor, pr_trianglelist, -1);
 
 var duck_angle = ((self.player.direction - self.player.face_direction) + 360) % 360;
