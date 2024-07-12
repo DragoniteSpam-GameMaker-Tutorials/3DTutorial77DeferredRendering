@@ -15,7 +15,7 @@ var zfrom = zto - self.player.distance * dsin(self.player.pitch);
 self.mat_view = matrix_build_lookat(xfrom, yfrom, zfrom, xto, yto, zto, 0, 0, 1);
 
 camera_set_view_mat(cam, self.mat_view);
-camera_set_proj_mat(cam, matrix_build_projection_perspective_fov(-60, -16 / 9, 1, 16000));
+camera_set_proj_mat(cam, matrix_build_projection_perspective_fov(-60, -16 / 9, 1, 8_000));
 camera_apply(cam);
 
 gpu_set_cullmode(cull_counterclockwise);

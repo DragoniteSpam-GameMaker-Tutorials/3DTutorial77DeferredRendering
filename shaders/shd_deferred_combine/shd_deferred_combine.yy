@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_deferred_combine",
+  "name":"shd_deferred_combine",
+  "parent":{
+    "name":"3DTutorial76DeferredRendering",
+    "path":"3DTutorial76DeferredRendering.yyp",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
