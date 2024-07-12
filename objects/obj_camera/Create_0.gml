@@ -154,3 +154,4 @@ application_surface_draw_enable(false);
 
 self.gbuff_diffuse = -1;
 self.gbuff_normal = -1;
+self.gbuff_vs_position = -1;

@@ -1,5 +1,6 @@
 surface_set_target(self.gbuff_diffuse);
 surface_set_target_ext(1, self.gbuff_normal);
+surface_set_target_ext(2, self.gbuff_vs_position);
 shader_set(shd_deferred_gbuff);
 
 draw_clear(c_black);
